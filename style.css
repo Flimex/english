@@ -1,0 +1,99 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+}
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 80px;
+    background: url(fon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#flashcard {
+    margin-bottom: 20px;
+}
+
+#word {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:white;
+    padding: 10px;
+    background: black;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+#buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h2{
+    color:white;
+    padding: 10px;
+    background: black;
+    border-radius: 5px;
+}
+p{
+    font-size: 20px;
+    color: white;
+    margin:90px;
+    background: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+#counter {
+    margin: 0 10px;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#feedback {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#stats {
+    margin-top: 20px;
+    font-size: 18px;
+}
+body {
+    overflow-x: hidden;
+}
+#restart{
+    visibility: hidden;
+}
+#reward{
+    visibility: hidden;
+}
+#name{
+    padding: 10px;
+    background: black;
+    border-radius: 5px;
+}
+#result{
+    padding: 20px;
+}
